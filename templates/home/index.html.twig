@@ -1,17 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Acceuil{% endblock %}
 
 {% block body %}
-<style>
 
+<h1> Bienvenu dans notre site These</h1>
 
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
-<h1> site pour These</h1>
-
-<p> jkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+<div> <h2>Notre sites contient differente theses postés par des doctorants des écoles doctorals de l'université de Montpellier ,<br>
+vous avez la posibilité de consulter les theses avec leurs descriptions et acceder meme à l'école doctoral en question ,<br>
+bonne navigation ...</h2></div>
 
 <p><a href="{{path('theses')}}">Listes des Theses<a/><p/>
 {% endblock %}

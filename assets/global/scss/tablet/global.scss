@@ -5,10 +5,15 @@ body{
   .sf-toolbarreset{
     background-color: #244657;
   }
+  div{
+    background-color: rgb(16, 165, 24);
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   h1{
     text-align: center;
+    font-weight:bold;
+    font-size: 25px;
+    color:black;
   }
-    div{
-      background-color: brown;
-    }
 }
